@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext"); */
-@import url("https://fonts.googleapis.com/css?family=Mukta&display=swap");
-.hindi {
-  font-family: "Mukta";
+@import url("https://fonts.googleapis.com/css?family=Noto Sans&display=swap");
+.Noto Sansi {
+  font-family: "Noto Sans";
   font-weight: normal;
 }
 
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Mukta", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #324e63;
 }
 
@@ -231,11 +231,11 @@ li > a {
   display: inline-flex;
 }
 .profile-card-ctr {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 576px) {
   .profile-card-ctr {
@@ -245,7 +245,7 @@ li > a {
 .profile-card__button {
   background: none;
   border: none;
-  font-family: "Mukta", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 19px;
   margin: 15px 35px;
@@ -362,7 +362,7 @@ li > a {
   padding: 15px 20px;
   color: #324e63;
   font-weight: 500;
-  font-family: "Mukta", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   outline: none;
   transition: all 0.3s;
 }
