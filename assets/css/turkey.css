@@ -24,7 +24,8 @@ a:hover {
   text-decoration: none;
 }
 
-li > a {
+li > a,
+p > a {
   text-decoration: underline;
 }
 
@@ -112,7 +113,7 @@ li > a {
 }
 .profile-card__name {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 28px;
   color: #6944ff;
   margin-bottom: 15px;
 }
@@ -382,5 +383,8 @@ li > a {
   border-radius: 12px;
   transition: all 0.3s;
 }
-
+td {
+  border: 1px solid;
+  padding: 5px;
+}
 /*# sourceMappingURL=turkey.css.map */
